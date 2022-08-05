@@ -1,0 +1,56 @@
+.orderproduct {
+}
+.orderproduct__container {
+  background-color: rgb(232, 231, 231);
+  border-radius: 8px;
+  border: 0.5px solid grey;
+  margin: 10px 0;
+}
+
+.orderproduct__orderUpper {
+  display: flex;
+  gap: 30px;
+  padding: 15px 10px;
+}
+
+.orderproduct__date {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderproduct__date p,
+.orderproduct__total p,
+.orderproduct__id p {
+  font-size: 0.75em;
+  color: rgb(56, 56, 56);
+  padding: 1px;
+}
+
+.orderproduct__dateValues {
+  font-size: 1.25em;
+  display: flex;
+  gap: 10px;
+}
+
+.orderproduct__totalPrice {
+  font-size: 0.9em !important;
+}
+
+.orderproduct__total {
+  flex: 1;
+}
+
+.orderproduct__id {
+  display: flex;
+}
+
+.orderproduct__orderBottom {
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .orderproduct__id {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,53 @@
+.orders {
+  width: 100%;
+}
+.orders__container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.orders__title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.orders__noorder p {
+  padding-top: 15px;
+  font-size: 1.2em;
+}
+
+.loading {
+  margin: 20px auto;
+  border: 8px solid black;
+  border-radius: 50%;
+  border-top: 8px solid rgb(246, 185, 71);
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .orders__container {
+    width: 95%;
+  }
+}

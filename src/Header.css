@@ -1,0 +1,178 @@
+.header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  background-color: #0f1111;
+  height: 60px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.header__logo {
+  object-fit: cover;
+  max-width: 100px;
+  padding: 10px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  flex: 1;
+  width: 100%;
+}
+
+.header__searchCategory {
+  color: #333333;
+  border: 0;
+  background-color: #dcdbdb;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid rgb(176, 176, 176);
+  cursor: pointer;
+}
+
+.header__searchCategory:focus {
+  outline: none;
+}
+
+.header__searchInput {
+  height: 40px;
+  color: black;
+  border: 0;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.header__searchInput:focus {
+  outline: none;
+}
+
+.header__searchInput:focus .header__search {
+  box-shadow: 1px 1px 1px white;
+}
+
+.header__searchIcon {
+  height: 40px !important;
+  width: 1.7em !important;
+  padding: 0 6px;
+  color: #444444;
+  background-color: rgb(246, 185, 71);
+  cursor: pointer;
+}
+
+.header__navbar {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.header__accountLink,
+.header__cartLink,
+.header__ordersLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.header__cartLink,
+.header__account,
+.header__orders {
+  border: 1px solid transparent;
+}
+
+.header__cartLink:hover,
+.header__account:hover,
+.header__orders:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.header__account,
+.header__orders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 5px;
+}
+
+.header__accountFirstLine,
+.header__ordersFirstLine {
+  font-weight: 300;
+  font-size: 0.75em;
+}
+
+.header__accountSecondLine,
+.header__ordersSecondLine {
+  font-weight: bolder;
+  font-size: 0.9em;
+}
+
+.header__cart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40px;
+}
+
+.header__cartIcon {
+  font-size: 2em;
+}
+
+.header__cartCounter {
+  font-size: 1.3em;
+  color: orange;
+  text-align: center;
+  margin-bottom: -5px;
+  font-weight: bold;
+}
+
+.header__accountLink:visited,
+.header__cartSpan:visited {
+  color: White;
+  background-color: white;
+}
+
+.header__cartLink {
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header__search {
+    flex: 0;
+  }
+
+  .header__navbar {
+    flex: 1;
+    justify-content: space-around;
+  }
+
+  .header__searchCategory,
+  .header__searchInput {
+    display: none;
+  }
+
+  .header__logo {
+    padding-top: 20px;
+  }
+
+  .header__cartSpan {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header__searchCategory {
+    display: none;
+  }
+}

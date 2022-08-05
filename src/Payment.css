@@ -1,0 +1,99 @@
+.payment {
+  background-color: #eaeded;
+  min-height: 100vh;
+  padding-bottom: 10px;
+}
+
+.payment__title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.payment__container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment__address,
+.payment__modeTitle,
+.payment__sumupTitle {
+  display: flex;
+}
+
+.payment__address {
+  gap: 20px;
+}
+
+.payment__addressLeft {
+  display: flex;
+  gap: 20px;
+}
+
+.payment__addressRight {
+  flex: 1;
+}
+
+.payment__addressModify {
+  color: rgb(87, 154, 236);
+}
+
+.payment__modeTitle,
+.payment__sumupTitle {
+  gap: 20px;
+}
+.payment__sumupPrice {
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.payment__sumupProducts {
+  margin: 10px 0;
+}
+
+.payment__sumupPriceTotal {
+  flex: 1;
+  text-align: right;
+  font-size: 1.3em;
+}
+
+.payment_button {
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.payment__modeCard button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50%;
+  padding: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #fcd200;
+  background-color: #ffd814;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.payment__modeCard button:hover {
+  background-color: #f2cc11;
+}
+
+hr {
+  border: 0.5px solid lightgray;
+}
+
+.payment__modeCard {
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .payment__container {
+    width: 95%;
+  }
+}
