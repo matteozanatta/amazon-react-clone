@@ -14,7 +14,7 @@ Here you can see the final result: <a href="https://desolate-shore-80232.herokua
 - **Redux library** to handle state interactions and state management (cart and user)
   - Use of dispatch, selector, reducer
 - **React-persist** to avoid refreshing Redux state on every page reloading
-- 
+- Node.js express server to handle Stripe authentication on payments.
 
 # Getting Started with Create React App
 
