@@ -1,5 +1,5 @@
 # Amazon.com clone made with React and Redux
-Here you can see the final result: <a href="https://desolate-shore-80232.herokuapp.com" target="_blank">Website</a>
+Here you can see the final result: <a href="https://desolate-shore-80232.herokuapp.com" target="_blank">Amazon clone website</a>
 
 # Getting Started with Create React App
 
