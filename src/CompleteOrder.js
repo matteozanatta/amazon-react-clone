@@ -46,7 +46,7 @@ function CompleteOrder() {
       process();
     }
 
-    navigate("/orders");
+    navigate("/");
   }, []);
 
   return <div></div>;
