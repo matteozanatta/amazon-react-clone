@@ -1,5 +1,10 @@
 # Amazon.com clone made with React and Redux
+I made an amazon.com clone with React and Redux libraries.
 Here you can see the final result: <a href="https://desolate-shore-80232.herokuapp.com" target="_blank">Amazon clone website</a>
+
+Functionalities implemented and supported:
+- Account Authentication with Firebase (Login/Logout/Registration)
+- Payment and transaction management with Stripe -> You can simulate an order with the products you add in the cart.
 
 # Getting Started with Create React App
 
