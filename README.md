@@ -1,5 +1,5 @@
 # Amazon.com clone made with React and Redux
-Here you can see the final result: https://desolate-shore-80232.herokuapp.com/
+Here you can see the final result: (https://desolate-shore-80232.herokuapp.com)
 
 # Getting Started with Create React App
 
