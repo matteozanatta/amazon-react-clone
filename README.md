@@ -5,7 +5,7 @@ Here you can see the final result: <a href="https://desolate-shore-80232.herokua
 Functionalities implemented and supported:
 - Account Authentication with Firebase (Login/Logout/Registration)
 - Payment and transaction management with Stripe:
-  - You can simulate an order with the products you added in the cart. Just type "4242 4242 4242 4242" in the card number field and any number you want in the expiration date and cvv fields. The order will be processed and will be available in the "Orders" page.
+  - You can simulate an order with the products you added in the cart. When you are in the payment page, just type "4242 4242 4242 4242" in the card number field and any number you want in the expiration date and cvv fields. The order will be then processed and will be available in the "Orders" page.
 
 
 # Getting Started with Create React App
