@@ -1,7 +1,7 @@
 # Amazon.com clone made with React and Redux
 I made an amazon.com clone with React and Redux libraries.
 <br>
-Here you can see the final result: <a href="https://desolate-shore-80232.herokuapp.com" target="_blank">Amazon clone website</a>
+Here you can see the final result: <a href="https://desolate-shore-80232.herokuapp.com" target="_blank">Amazon clone website</a> (first load could take a while)
 
 ## Functionalities implemented and supported:
 - Account Authentication with **Firebase** (Login/Logout/Registration)
